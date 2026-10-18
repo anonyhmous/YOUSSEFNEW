@@ -1,0 +1,6 @@
+{
+  "name": "DriveFlow",
+  "description": "Assistant overlay and verdict indicator for driver ride requests (inDrive, Uber, DiDi)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

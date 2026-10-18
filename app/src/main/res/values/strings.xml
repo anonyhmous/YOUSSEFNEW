@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DriveFlow</string>
+    <string name="app_full_name">DriveFlow Driver</string>
+    <string name="app_tagline">مساعد كباتن التوصيل الذكي</string>
+    <string name="app_description">قراءة شاشات طلبات التوصيل وعرض مؤشرات الربحية</string>
+
+    <!-- Navigation Tabs -->
+    <string name="tab_home">الرئيسية</string>
+    <string name="tab_settings">الإعدادات</string>
+    <string name="tab_help">المساعدة</string>
+
+    <!-- License & Status -->
+    <string name="status_active">مفعل</string>
+    <string name="status_trial">تجريبي</string>
+    <string name="status_free">مجاني</string>
+    <string name="device_code_title">كود جهازك</string>
+    <string name="device_code_hint">شارك هذا الكود لتفعيل اشتراكك</string>
+    <string name="copy_device_code">نسخ كود الجهاز</string>
+    <string name="code_copied">تم نسخ كود الجهاز إلى الحافظة</string>
+    <string name="subscription_info">تفاصيل الاشتراك</string>
+    <string name="instapay_account">حساب انستاباي: %1$s</string>
+    <string name="whatsapp_support">دعم واتساب: %1$s</string>
+    <string name="free_quota_label">رصيدك اليومي المجاني</string>
+    <string name="free_list_quota">طلبات القائمة: %1$d / %2$d</string>
+    <string name="free_details_quota">تفاصيل الرحلات: %1$d / %2$d</string>
+    <string name="paste_license_hint">الصق مفتاح التفعيل هنا (يبدأ بـ DF1.)</string>
+    <string name="activate_button">تفعيل المفتاح</string>
+    <string name="language_selection">اللغة</string>
+    <string name="lang_ar">العربية (مصر)</string>
+    <string name="lang_en">English</string>
+    <string name="days_remaining">%1$d يوم متبقي</string>
+    <string name="subscription_active_until">الاشتراك سارٍ حتى %1$s (متبقي %2$d يوم)</string>
+
+    <!-- Activation Errors -->
+    <string name="err_bad_format">صيغة المفتاح غير صحيحة (تأكد من نسخ المفتاح كاملاً ويبدأ بـ DF1.).</string>
+    <string name="err_bad_signature">توقيع المفتاح غير صالح أو تم التعديل عليه.</string>
+    <string name="err_wrong_device">هذا المفتاح مخصص لجهاز آخر وليس لهذا الهاتف.</string>
+    <string name="err_expired">هذا المفتاح انتهت صلاحيته. يرجى تجديد الاشتراك.</string>
+    <string name="err_not_yet_valid">المفتاح ليس سارياً بعد. تأكد من ضبط ساعة الهاتف تلقائياً.</string>
+    <string name="err_clock_tampered">تم رصد تراجع في ساعة الهاتف. تم الرجوع للوضع المجاني.</string>
+    <string name="activation_success">تم تفعيل المفتاح بنجاح! صالح حتى اليوم رقم: %1$d</string>
+
+    <!-- Verdict & Tones -->
+    <string name="tone_green">ممتازة</string>
+    <string name="tone_orange">تستحق التفاوض</string>
+    <string name="tone_red">غير مربحة</string>
+    <string name="tone_gray">بيانات ناقصة</string>
+
+    <!-- Ride Apps -->
+    <string name="app_indrive">inDrive</string>
+    <string name="app_uber">Uber Driver</string>
+    <string name="app_didi">DiDi Driver</string>
+    <string name="supported_apps_title">التطبيقات المدعومة</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_page1_title">أهلاً بك يا كابتن</string>
+    <string name="welcome_page1_desc">درايف فلو صُمم لحماية مجهودك وبنزينك، ويحسب لك صافي ربح كل مشوار فور ظهوره قبل أن تقبل أو تفاوض.</string>
+    <string name="welcome_page2_title">رأي ذكي في ثوانٍ</string>
+    <string name="welcome_page2_desc">علامة ملونة واضحة بجانب كل طلب:\n  أخضر: مشوار مربح ومناسب لشروطك\n  برتقالي: يحتاج تفاوض أو فيه ملحوظة\n  أحمر: خسارة أو بعيد، تجاهله\n  رمادي: جاري قراءة تفاصيل المسافة.</string>
+    <string name="welcome_page3_title">شروطك أنت اللي تحددها</string>
+    <string name="welcome_page3_desc">حدد الحد الأدنى لسعر الكيلو، المناطق اللي تحب تروحلها، والمناطق اللي تتجنبها مع حساب عمولة الشركات والبنزين.</string>
+    <string name="welcome_page4_title">الطلبات الممتازة تناديك بصوت</string>
+    <string name="welcome_page4_desc">مش محتاج تفضل باصص في الشاشة طول الوقت، لما يظهر طلب أخضر ذهبي ومناسب تماماً هيرن وينبهك فوراً.</string>
+    <string name="welcome_page5_title">أنت المتحكم دائماً</string>
+    <string name="welcome_page5_desc">التطبيق يقرأ الشاشة فقط! لا يضغط، لا يقبل، لا يرفض ولا يفاوض بدلاً منك أبداً. القرار 100% في إيدك.</string>
+    <string name="welcome_page6_title">طريقة الاشتراك والتشغيل</string>
+    <string name="welcome_page6_desc">بدون خوادم وسريع جداً. حول الاشتراك عبر انستاباي، وأرسل كود جهازك على واتساب لتستلم مفتاح التفعيل المباشر.</string>
+    <string name="btn_skip">تخطي</string>
+    <string name="btn_next">التالي</string>
+    <string name="btn_get_started">ابدأ الآن</string>
+
+    <!-- Consent Screen -->
+    <string name="consent_title">ماذا يقرأ درايف فلو؟</string>
+    <string name="consent_subtitle">شفافية كاملة وأمان مطلق لخصوصيتك</string>
+    <string name="consent_point1_title">يقرأ تطبيقات المشاوير المدعومة فقط</string>
+    <string name="consent_point1_desc">يقرأ سعر الطلب، المسافات، تقييم الراكب، وعناوين التحرك والوصول من inDrive و Uber و DiDi فقط.</string>
+    <string name="consent_point2_title">لا يلمس ولا يضغط الشاشة نهائياً</string>
+    <string name="consent_point2_desc">التطبيق لا يملك أي تحكم ذاتي ولا يضغط زر القبول أو الرفض إطلاقاً.</string>
+    <string name="consent_point3_title">لا يتم تخزين أي بيانات للركاب</string>
+    <string name="consent_point3_desc">كل العمليات الحسابية لحظية في ذاكرة الهاتف وتختفي فوراً، ولا يتم تسجيل أي معلومات شخصية للركاب.</string>
+    <string name="consent_point4_title">خصوصية كاملة وبدون خوادم</string>
+    <string name="consent_point4_desc">لا يوجد أي سيرفر خارجي، وبياناتك لا تخرج من هاتفك إلا الرسائل التي ترسلها أنت بإرادتك عبر واتساب.</string>
+    <string name="btn_agree_continue">أوافق وأتابع</string>
+    <string name="btn_view_commitments">قراءة التعهدات الكاملة</string>
+
+    <!-- Contact Screen -->
+    <string name="contact_title">بيانات الكابتن للتفعيل</string>
+    <string name="contact_subtitle">تُستخدم هذه البيانات فقط في رسائل الواتساب التي ترسلها بإرادتك لتسهيل متابعة اشتراكك.</string>
+    <string name="contact_name_label">اسم الكابتن (حروف فقط)</string>
+    <string name="contact_name_hint">مثال: أحمد علي</string>
+    <string name="contact_phone_label">رقم الهاتف المرتبط بالواتساب</string>
+    <string name="contact_phone_hint">مثال: 01012345678</string>
+    <string name="contact_gov_label">محافظة العمل الأساسية</string>
+    <string name="contact_gov_select">اختر المحافظة</string>
+    <string name="btn_save_continue">حفظ ومتابعة</string>
+    <string name="err_invalid_name">يرجى إدخال اسم صحيح بالحروف فقط</string>
+    <string name="err_invalid_phone">يرجى إدخال رقم هاتف مصري صحيح (10 أو 11 رقم)</string>
+    <string name="err_select_gov">يرجى اختيار المحافظة</string>
+
+    <!-- Home Screen -->
+    <string name="home_hero_on">درايف فلو يعمل الآن</string>
+    <string name="home_hero_off">درايف فلو متوقف مؤقتاً</string>
+    <string name="home_hero_sub_on">يقوم بتحليل المشاوير وحساب الأرباح فور ظهورها</string>
+    <string name="home_hero_sub_off">اضغط لتفعيل المساعد العائم وقراءة الشاشة</string>
+    <string name="row_my_rules">قواعدي وشروطي</string>
+    <string name="row_alerts">التنبيهات الصوتية</string>
+    <string name="row_heading_home">طريق البيت (مروّح)</string>
+    <string name="row_plan">خطة الاشتراك</string>
+    <string name="btn_details">التفاصيل</string>
+    <string name="setup_checklist_title">خطوات الإعداد للتشغيل</string>
+    <string name="setup_step1">1. تفعيل قارئ الطلبات (إمكانية الوصول)</string>
+    <string name="setup_step2">2. السماح بالظهور فوق التطبيقات الأخرى</string>
+    <string name="setup_step3">3. ضبط شروطي (الحد الأدنى لسعر الكيلو)</string>
+    <string name="keep_reader_running_title">إبقاء القارئ يعمل في الخلفية</string>
+    <string name="keep_reader_running_desc">دليل ضبط استهلاك البطارية والتشغيل التلقائي (شاومي، أوبو، سامسونج)</string>
+
+    <!-- Android 13 Dialog -->
+    <string name="restricted_settings_title">تنبيه لأجهزة أندرويد 13 فما فوق</string>
+    <string name="restricted_settings_msg">إذا ظهرت لك رسالة \"إعداد مقيد\" عند تفعيل خدمة إمكانية الوصول:\n1. افتح إعدادات الهاتف > التطبيقات > DriveFlow Driver\n2. اضغط على الثلاث نقاط في الزاوية العلوية\n3. اختر \"السماح بالإعدادات المقيدة\" وأدخل قفل الشاشة\n4. عُد للتطبيق وفعل الخدمة بنجاح.</string>
+    <string name="btn_understood">فهمت، افتح الإعدادات</string>
+
+    <!-- Rules / Policy Setup Screen -->
+    <string name="rules_title">قواعد وشروط التسعير</string>
+    <string name="section_country_price">الدولة والأسعار الأساسية</string>
+    <string name="section_distance">المسافات والوصول للزبون</string>
+    <string name="section_rider_payment">تقييم الراكب والدفع</string>
+    <string name="section_stops_long">الوقفات والسفر الطويل</string>
+    <string name="section_car_cost">مصاريف السيارة وصافي الربح</string>
+    <string name="section_negotiation">خطوات التفاوض والمزايدة</string>
+    <string name="section_apps_enabled">تطبيقات المشاوير المفعلة</string>
+
+    <string name="field_min_price_per_km">الحد الأدنى لسعر الكيلو (إلزامي)</string>
+    <string name="field_currency">العملة</string>
+    <string name="field_distance_unit">وحدة المسافة</string>
+    <string name="field_governorate">المحافظة</string>
+    <string name="field_min_total_km">أقل مسافة إجمالية مقبولة (كم)</string>
+    <string name="field_max_total_km">أقصى مسافة إجمالية للمشوار (كم)</string>
+    <string name="field_max_trip_km">أقصى مسافة لرحلة الراكب (كم)</string>
+    <string name="field_max_pickup_km">أقصى مسافة للوصول للراكب (كم)</string>
+    <string name="field_max_pickup_minutes">أقصى وقت للوصول للراكب (بالدقائق)</string>
+    <string name="field_free_pickup_km">المسافة المعفاة من حساب الذهاب (كم)</string>
+    <string name="field_min_rider_rating">أقل تقييم للراكب (من 5)</string>
+    <string name="field_min_rider_trips">أقل عدد رحلات سابقة للراكب</string>
+    <string name="field_max_request_age">أقصى عمر للطلب بالدقائق</string>
+    <string name="field_allowed_payments">طرق الدفع المسموحة</string>
+    <string name="payment_all">الكل (كاش ومحافظ إلكترونية)</string>
+    <string name="payment_cash_only">كاش فقط</string>
+    <string name="field_banned_words">كلمات محظورة في ملحوظة الراكب</string>
+    <string name="banned_words_hint">اكتب كلمة واضغط إضافة (مثل: تدخين، حيوان، انتظار)</string>
+    <string name="field_stops_mode">التعامل مع الوقفات الإضافية</string>
+    <string name="field_stop_fee">رسوم الوقفة الإضافية المطلوبة (جنيه)</string>
+    <string name="field_long_trip_mode">المشاوير الطويلة والسفر</string>
+    <string name="field_long_trip_km">حد المشوار الطويل (كم)</string>
+    <string name="field_warn_uber_saver">تنبيه عند طلبات أوبر سيفر المخفضة</string>
+    <string name="field_fuel_cost">تكلفة استهلاك البنزين لكل كم (جنيه)</string>
+    <string name="field_upkeep_cost">تكلفة الصيانة واستهلاك العربية لكل كم (جنيه)</string>
+    <string name="field_basis_net">اتخاذ القرار بناءً على صافي الربح بعد العمولة والمصاريف</string>
+    <string name="field_commission_pct">نسبة عمولة تطبيق %1$s (٪)</string>
+    <string name="field_negotiation_step">خطوة المزايدة والتفاوض (افتراضي 5)</string>
+    <string name="field_max_offer">سقف أقصى عرض سعر (جنيه)</string>
+    <string name="btn_save_rules">حفظ الشروط</string>
+    <string name="rules_saved_toast">تم حفظ شروط التسعير بنجاح</string>
+
+    <!-- Areas Screen -->
+    <string name="areas_title">المناطق المفضلة والمحظورة</string>
+    <string name="avoided_areas_title">المناطق المحظورة (تنبيه أحمر)</string>
+    <string name="preferred_areas_title">المناطق المفضلة (أولوية ممتازة)</string>
+    <string name="add_area_hint">اكتب اسم الحي أو المنطقة واضغط إضافة</string>
+    <string name="btn_add">إضافة</string>
+    <string name="empty_avoided_areas">لم يتم إضافة مناطق محظورة بعد</string>
+    <string name="empty_preferred_areas">لم يتم إضافة مناطق مفضلة بعد</string>
+    <string name="suggested_districts_title">أحياء مقترحة لمحافظتك:</string>
+    <string name="confirm_remove_area_title">حذف المنطقة</string>
+    <string name="confirm_remove_area_msg">هل أنت متأكد من حذف منطقة \"%1$s\"؟</string>
+    <string name="confirm_move_area_title">نقل المنطقة</string>
+    <string name="confirm_move_area_msg">نقل \"%1$s\" إلى القائمة الأخرى؟</string>
+    <string name="warn_gov_unset">تنبيه: لم يتم تحديد المحافظة بعد في بيانات الكابتن، تظهر الآن مقترحات عامة.</string>
+
+    <!-- Alerts Screen -->
+    <string name="alerts_title">التنبيهات الصوتية والاهتزاز</string>
+    <string name="alert_enable_switch">تفعيل التنبيه الصوتي عند الطلبات الممتازة</string>
+    <string name="alert_mode_title">شكل التنبيه</string>
+    <string name="alert_mode_sound">صوت فقط</string>
+    <string name="alert_mode_sound_vibrate">صوت واهتزاز</string>
+    <string name="alert_explanation_title">متى يرن التطبيق؟</string>
+    <string name="alert_explanation_desc">يرن درايف فلو فقط عندما يحصل المشوار على تقييم أخضر (طلب مربح ومطابق لشروطك في السعر والمسافة والمنطقة)، لتنتبه فوراً وتقبل بأمان دون الحاجة للتحديق الدائم في الهاتف أثناء القيادة.</string>
+    <string name="btn_test_alert">سماع نغمة التنبيه التجريبية</string>
+    <string name="test_alert_toast">تم تشغيل نغمة التنبيه التجريبية</string>
+    <string name="alert_volume_muted_warn">تنبيه: صوت إشعارات الهاتف مكتوم حالياً، يرجى رفع الصوت لتتمكن من سماع التنبيهات أثناء القيادة.</string>
+
+    <!-- Home Way Screen -->
+    <string name="homeway_title">وضع طريق البيت (مروّح)</string>
+    <string name="homeway_switch">تفعيل وضع مروّح الآن</string>
+    <string name="homeway_switch_desc">سيركز درايف فلو على إعطاء تقييم ممتاز للطلبات التي تأخذك باتجاه بيتك</string>
+    <string name="homeway_mode_home">موقع بيتي الأساسي</string>
+    <string name="homeway_mode_place">وجهة محددة اليوم</string>
+    <string name="homeway_paste_hint">الصق إحداثيات الموقع أو رابط جوجل مابس</string>
+    <string name="homeway_label_hint">اسم الوجهة (مثال: بيتي في المعادي)</string>
+    <string name="btn_save_destination">حفظ الوجهة</string>
+    <string name="btn_clear_destination">مسح</string>
+    <string name="homeway_saved_toast">تم حفظ وجهة طريق البيت</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title_header">إعدادات العرض والتطبيق</string>
+    <string name="marker_size_label">حجم شارة الطلبات</string>
+    <string name="marker_size_small">صغير</string>
+    <string name="marker_size_normal">متوسط (افتراضي)</string>
+    <string name="marker_size_large">كبير</string>
+    <string name="marker_preview_title">معاينة حية للشارة بجانب الطلب:</string>
+    <string name="bar_opacity_label">شفافية الشريط العائم (%1$d٪)</string>
+    <string name="bar_preview_title">معاينة حية للشريط العائم:</string>
+    <string name="bar_pos_title">موقع الشريط على الشاشة</string>
+    <string name="bar_pos_auto">تلقائي بجانب خريطة المشوار</string>
+    <string name="bar_pos_custom">مخصص حسب آخر سحب</string>
+    <string name="btn_reset_pos">إعادة ضبط الموقع</string>
+    <string name="auto_off_label">الإيقاف التلقائي عند عدم الاستخدام</string>
+    <string name="auto_off_hours_1">ساعة واحدة</string>
+    <string name="auto_off_hours_3">3 ساعات (مستحسن)</string>
+    <string name="auto_off_hours_6">6 ساعات</string>
+    <string name="auto_off_never">أبداً</string>
+    <string name="auto_off_bank_note">ملاحظة هامة: بعض التطبيقات البنكية قد ترفض الفتح أثناء تفعيل خدمات قراءة الشاشة. ميزة الإيقاف التلقائي تساعدك على إغلاق الخدمة فور انتهاء شيفت العمل.</string>
+    <string name="language_row_title">لغة التطبيق</string>
+    <string name="subscription_row_title">الاشتراك وإدارة الرخصة</string>
+
+    <!-- Help & About Screen -->
+    <string name="help_title">المساعدة والدعم</string>
+    <string name="how_it_works_title">كيف يعمل درايف فلو؟</string>
+    <string name="pillar1_title">1. علامة ملونة بجانب كل طلب</string>
+    <string name="pillar1_desc">تحسب لك سعر الكيلو الفعلي وصافي الربح في أجزاء من الثانية.</string>
+    <string name="pillar2_title">2. شريط عائم فوق الخريطة</string>
+    <string name="pillar2_desc">شريط هادئ وبسيط لا يغطي عناصر الشاشة يعرض لك ملخص المشوار.</string>
+    <string name="pillar3_title">3. القرار لك دائماً</string>
+    <string name="pillar3_desc">درايف فلو لا يضغط ولا يقبل ولا يرفض بدلاً منك إطلاقاً.</string>
+    <string name="pillar4_title">4. تنبيه صوتي أثناء القيادة</string>
+    <string name="pillar4_desc">صوت مميز للطلبات الذهبية حتى لا تشتت انتباهك عن الطريق.</string>
+    <string name="legend_title">دليل ألوان التقييم:</string>
+    <string name="legend_green">أخضر: اقبل، مشوار ممتاز ومربح جداً ومطابق لجميع شروطك.</string>
+    <string name="legend_orange">برتقالي: فكر وفاوض، سعر المشوار قليل أو فيه وقفة إضافية.</string>
+    <string name="legend_red">أحمر: ارفض وتجاهل، المشوار خاسر أو ذاهب لمنطقة محظورة.</string>
+    <string name="legend_gray">رمادي: جاري قراءة تفاصيل ومسافة المشوار.</string>
+    <string name="contact_owner_btn">التواصل مع الدعم عبر واتساب</string>
+    <string name="your_registered_info">بياناتك المسجلة</string>
+    <string name="app_version_label">إصدار التطبيق: %1$s</string>
+    <string name="version_tap_hint">اضغط 7 مرات لفتح الفحص الفني</string>
+    <string name="commitments_title">تعهدات أمان وخصوصية درايف فلو</string>
+    <string name="how_to_update_title">كيفية التحديث بدون فقدان بياناتك</string>
+    <string name="how_to_update_body">عند توفر إصدار جديد، يرسل لك المسؤول ملف APK الجديد على واتساب أو عبر رابط مباشر. قم بتثبيت التحديث مباشرة فوق النسخة الحالية دون حذفها، وسيتم الاحتفاظ بجميع إعداداتك ومفتاح اشتراكك النشط كاملاً بفضل توقيع التطبيق بنفس المفتاح الأمني المعتمد.</string>
+
+    <!-- Subscribe Screen -->
+    <string name="subscribe_screen_title">الاشتراك والتفعيل</string>
+    <string name="subscribe_step1_title">الخطوة 1: التحويل عبر انستاباي</string>
+    <string name="subscribe_step1_desc">قم بتحويل قيمة الاشتراك (%1$s) لحساب انستاباي الخاص بالمالك:</string>
+    <string name="copy_instapay_num">نسخ رقم انستاباي (%1$s)</string>
+    <string name="instapay_copied">تم نسخ رقم انستاباي</string>
+    <string name="subscribe_step2_title">الخطوة 2: إرسال كود الجهاز وإيصال الدفع</string>
+    <string name="subscribe_step2_desc">اضغط بالأسفل لفتح واتساب مع كود جهازك مكتوباً تلقائياً، وأرفق لقطة شاشة للتحويل.</string>
+    <string name="btn_open_whatsapp_subscribe">إرسال كود الجهاز والإيصال</string>
+    <string name="subscribe_step3_title">الخطوة 3: لصق مفتاح التفعيل</string>
+    <string name="subscribe_step3_desc">فور استلام المفتاح من الدعم على واتساب، الصقه في الخانة بالأسفل واضغط تفعيل.</string>
+    <string name="token_input_label">مفتاح التفعيل (يبدأ بـ DF1.)</string>
+
+    <!-- WhatsApp Support Chat Screen -->
+    <string name="chat_screen_title">المحادثة مع الدعم عبر واتساب</string>
+    <string name="chat_disclaimer">تنبيه: درايف فلو لا يستخدم أي خوادم خارجية. يتم إرسال الرسائل مباشرة عبر تطبيق واتساب الرسمي المثبت على هاتفك.</string>
+    <string name="quick_replies_title">نماذج رسائل سريعة:</string>
+    <string name="qr_paid_activate">دفعت وعايز أفعل</string>
+    <string name="qr_not_activated">لسة ماتفعلتش</string>
+    <string name="qr_renew">عايز أجدد الاشتراك</string>
+    <string name="qr_reader_issue">عندي مشكلة في قراءة الطلبات</string>
+    <string name="qr_verdict_wrong">التقييم مش مظبوط</string>
+    <string name="qr_other">استفسار آخر</string>
+    <string name="chat_input_hint">اكتب رسالتك للدعم هنا...</string>
+    <string name="btn_send_whatsapp">إرسال عبر واتساب</string>
+    <string name="system_chat_response">الردود تصلك مباشرة على تطبيق واتساب على رقمك المسجل.</string>
+    <string name="instapay_chat_card_title">تذكير ببيانات حساب انستاباي للتحويل:</string>
+
+    <!-- Commitments Screen -->
+    <string name="commitments_heading">أشياء لا يفعلها درايف فلو نهائياً</string>
+    <string name="commit1_title">1. لا يضغط أو ينقر على الشاشة أبداً</string>
+    <string name="commit1_desc">التطبيق لا يملك صلاحية الضغط الذاتي، ولا يتدخل في قبول أو رفض أي طلب. أنت صاحب القرار دائماً.</string>
+    <string name="commit2_title">2. لا يخزن بيانات الركاب مطلقاً</string>
+    <string name="commit2_desc">نحن لا نحتفظ ولا نسجل أسماء الركاب أو أرقامهم أو مشاويرهم. كل العمليات الحسابية تنتهي في لحظتها.</string>
+    <string name="commit3_title">3. لا يرسل بياناتك لأي سيرفر</string>
+    <string name="commit3_desc">يعمل درايف فلو بدون أي خوادم سحابية. لا تخرج أي بيانات من جهازك إلا الرسائل التي ترسلها أنت عبر واتساب.</string>
+    <string name="commit4_title">4. اشتراك يدوي آمن ومباشر</string>
+    <string name="commit4_desc">التجديد يتم بمعرفتك عبر انستاباي بدون سحب تلقائي وبدون أي مفاجآت في حسابك البنكي.</string>
+
+    <!-- Diagnostics Screen -->
+    <string name="diagnostics_title">الفحص والتشخيص الفني</string>
+    <string name="diag_counters_title">عدادات التشخيص المحلية</string>
+    <string name="diag_counter_captures">لقطات الشاشة: %1$d</string>
+    <string name="diag_counter_ocr_fails">إخفاقات التعرف (OCR): %1$d</string>
+    <string name="diag_counter_reads">إجمالي الطلبات المقروءة: %1$d</string>
+    <string name="diag_export_settings">تصدير الإعدادات (JSON)</string>
+    <string name="diag_import_settings">استيراد الإعدادات (JSON)</string>
+    <string name="diag_ocr_rects_title">مستطيلات قص الشاشة لكل تطبيق (OCR Calibration)</string>
+    <string name="slider_crop_x">إزاحة X: %1$d</string>
+    <string name="slider_crop_y">إزاحة Y: %1$d</string>
+    <string name="channel_opportunity_name">فرص المشاوير المربحة</string>
+    <string name="channel_opportunity_desc">إشعار صوتي عند ظهور طلبات مطابقة لشروطك ومربحة</string>
+    <string name="accessibility_service_description">يقرأ شاشة تطبيقات inDrive وUber وDiDi لعرض تقييم الطلب فقط. لا يضغط ولا يقبل ولا يرفض أي طلب ولا يرسل أي بيانات.</string>
+</resources>
